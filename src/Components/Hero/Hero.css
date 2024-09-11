@@ -126,3 +126,18 @@
         padding: 15px 40px;
     }
 }
+@media(max-width: 375.20px){
+    .hero-connect {
+        padding: 15px 10px;
+    }
+
+    .hero-resume {
+        padding: 15px 20px;
+    }
+    .hero h1{
+        font-size: 25px;
+        text-align: center;
+        width: 80%;
+        font-weight: 600;
+    }
+}

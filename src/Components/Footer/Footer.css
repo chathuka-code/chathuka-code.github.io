@@ -58,6 +58,14 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+@media(max-width:768px){
+    .footer{
+        margin: 50px 70px;
+    }
+    .footer-email-input, .footer-subscribe{
+        display: none;
+    }
+}
 @media(max-width: 480px) {
     .footer {
         margin: 30px 20px; /* Reduced margins for smaller screens */
