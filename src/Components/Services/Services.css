@@ -102,3 +102,47 @@
         gap: 30px;
     }
 }
+
+@media (max-width: 480px) {
+    .services {
+        align-items: flex-start;
+        gap: 40px;
+        margin: 15px 30px;
+    }
+
+    .services-title h1 {
+        padding: 0;
+        font-size: 36px;
+    }
+
+    .services-title img {
+        width: 100px;
+        margin-right: -10px;
+    }
+
+    .services-format {
+        gap: 15px;
+        padding: 20px;
+        
+    }
+
+    .services-format h2 {
+        font-size: 24px;
+    }
+
+    .services-format p {
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 250px;
+    }
+
+    .services-readmore img {
+        width: 18px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        
+    }
+}

@@ -101,3 +101,50 @@
     height: 6px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .about {
+    gap: 50px;
+    margin: 30px 40px;
+    align-items: flex-start;
+  }
+  
+  .about-title h1 {
+    font-size: 36px;
+    padding: 0;
+  }
+  
+  .about-title img {
+    width: 100px;
+    right: -10px;
+  }
+  
+  .about-sections {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .about-left {
+    display: none;
+  }
+  
+  .about-para {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  
+  .about-skill {
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .about-skill li {
+    font-size: 18px;
+  }
+  
+  .about-skill hr {
+    height: 4px;
+  }
+}
+
+

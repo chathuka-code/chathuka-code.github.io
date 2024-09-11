@@ -157,4 +157,37 @@
         padding: 15px 40px;
         font-size: 20px;
     }
-}    
+}   
+
+@media(max-width: 480px) {
+    .contact-right label {
+        font-size: 18px; /* Keeping font size */
+        margin-bottom: 5px;
+    }
+
+    .contact-right input,
+    .contact-right textarea {
+        width: 100%; /* Maintain full width */
+        font-size: 18px; /* Keeping original font size */
+        padding: 10px;
+    }
+
+    .contact-right input {
+        height: auto; /* Allow natural height */
+        font-size: medium;
+    }
+
+    .contact-right textarea {
+        width: 100%; /* Match input width */
+        height: 150px; /* Keep height large enough for readability */
+        font-size: medium;
+        padding: 18px 10px;
+    }
+
+    .contact-submit {
+        padding: 15px 40px; /* Keeping original padding */
+        font-size: 18px; /* Keeping font size */
+        margin-top: 20px; /* Adding margin to separate from inputs */
+    }
+}
+

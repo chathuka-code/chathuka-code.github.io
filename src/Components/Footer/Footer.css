@@ -58,18 +58,25 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
-@media(max-width: 768px){
-    .footer{
-        margin: 50px 70px;
+@media(max-width: 480px) {
+    .footer {
+        margin: 30px 20px; /* Reduced margins for smaller screens */
     }
-    .footer-top{
+
+    .footer-top {
         flex-direction: column;
-        gap: 50px;
+        gap: 30px; /* Reduced gap to optimize space */
     }
-    .footer-bottom{
+
+    .footer-bottom {
         display: flex;
         flex-direction: column-reverse;
-        margin-bottom: 50px;
+        margin-bottom: 30px; /* Reduced margin for a tighter layout */
     }
+    .footer-email-input, .footer-subscribe{
+        display: none;
+    }
+    
 }
+
     
